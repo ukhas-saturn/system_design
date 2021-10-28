@@ -11,7 +11,17 @@ The system uses [MQTT](https://mqtt.org) as its background messaging protocol, r
 ![Network V1](network_diagram1.svg)
 
 ### Example Topics
+#### Telemetry Strings
 * raw/icarus/
 * raw/pegasus/
 * parsed/icarus/
 * parsed/pegasus/
+* parsed/pegasus/flight_1
+
+#### Listener Details
+* listener
+
+#### Other
+* announcements
+* announcements/listeners
+* announcements/flights
